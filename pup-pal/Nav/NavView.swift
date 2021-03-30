@@ -18,7 +18,7 @@ struct NavView: View {
         ]) {
             Spacer()
             
-            Text("PupPal")
+            Text("Pup-Pal")
                 .font(.custom("OleoScript-Regular", size: 30))
             
             Image("plane-arrow")
