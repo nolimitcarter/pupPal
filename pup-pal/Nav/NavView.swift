@@ -21,11 +21,11 @@ struct NavView: View {
             Text("Pup-Pal")
                 .font(.custom("OleoScript-Regular", size: 30))
             
-            Image("plane-arrow")
+            Image(systemName: "paperplane")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 12)
-                .rotationEffect(.degrees(-28))
+                .frame(width: 22)
+                .rotationEffect(.degrees(+14))
         }
     }
 }

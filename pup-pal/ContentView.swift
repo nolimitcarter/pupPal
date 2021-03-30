@@ -20,9 +20,12 @@ struct ContentView: View {
                     NavView(colWidth: colWidth)
                     // scrollable
                     ScrollView {
-                        
+                        VStack {
+                            NewsView()
+                        }
                     }
                 }
+                .navigationBarHidden(true)
             }
             .tabItem {
                 Image(systemName: "house.fill")
