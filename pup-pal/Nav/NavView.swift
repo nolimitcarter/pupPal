@@ -18,7 +18,7 @@ struct NavView: View {
         ]) {
             Spacer()
             
-            Text("Pup-Pal")
+            Text("Home")
                 .font(.custom("OleoScript-Regular", size: 30))
             
             Image(systemName: "paperplane")
